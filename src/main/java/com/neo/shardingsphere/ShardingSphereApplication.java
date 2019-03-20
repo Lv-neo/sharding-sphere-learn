@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = {"com.neo"})
+@SpringBootApplication()
 public class ShardingSphereApplication {
 
 	public static void main(String[] args) {
