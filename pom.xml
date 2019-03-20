@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -11,6 +12,12 @@
     <groupId>com.neo</groupId>
     <artifactId>sharding-sphere</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <modules>
+        <module>shardingsphere-master-slave</module>
+        <module>shardingsphere-sharding-databases-tables</module>
+    </modules>
+
     <name>sharding-sphere</name>
     <description>Demo project for shardingSphere</description>
 
@@ -68,14 +75,5 @@
         </dependency>
 
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
