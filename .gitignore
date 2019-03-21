@@ -24,4 +24,8 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+
+/shardingsphere-sharding-databases-tables/target/
+/shardingsphere-master-slave/target/
+
 src/main/resources/application-master-slave-test.properties
